@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #777;
+    background-image: url("../images/white_wall_hash.png");
+    background-repeat: repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.top-header {
+    background-color: #fff;
+    border-bottom: 2px solid #cccccc;
+    height: 78px;
+    margin-bottom: 40px;
+}
+
+.header-content {
+    width: 960px;
+    margin: 0 auto;
+}
+    
+#logo {
+    background-color: #f292a4;
+    width: 350px;
+    text-align: center;
+    float: left;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+nav {
+    color: #777;
+}
+
+ul {
+    list-style-type: none;
+    color: #b1b1b1;
+    font-size: 18px;
+    float: right;
+  }
+
+li {
+    display: inline;
+    line-height: 78px;
+    padding: 0px 10px; 
+    border-right: 1px solid #b1b1b1
+}
+
+section {
+    clear: both;
+    background-color: #fff;
+    width: 960px;
+    height: 650px;
+    border: 1px solid #dddddd;
+    line-height: 2;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.page-title {
+    color: #f292a4;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid #cccccc;
+    margin: 30px;
+}
+.clearfix {
+    overflow: auto;
+}
+img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 10px 40px 10px 0px;
+}
+
+p { 
+    width: 960px;
+    padding: 0px 40px 0px 40px;
+    float: left;
+}
+br {
+    display: block;
+    margin: 10px 0;
+ }
+
+ footer {
+     width: 100%;
+     background-color: #ee5575;
+     color: #fff;
+     text-align: center;
+     border-top: 8px solid #f292a4;
+     padding-top: 20px;
+     padding-bottom: 10px;
+     position: fixed;
+     left: 0;
+     bottom: 0;
+ }
+
+ form {
+     margin: 0px 30px;
+ }
+
+ input {
+     width: 100%;
+ }
+
+ textarea {
+     width: 100%;
+ }
+ 
+ #submit {
+     width: 100px;
+     color: #fff;
+     background-color: #f292a4;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     font-size: 16px;
+     border: none;
+     padding: 10px;
+ }

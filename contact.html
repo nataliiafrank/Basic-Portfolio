@@ -2,33 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="???????">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-<header>
-    <h1>Nataliia Frank</h1>
-    <nav>
-        <ul>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-</header>
+    <header class="top-header">
+        <div class="header-content">
+            <div id="logo">
+                <h1>Nataliia Frank</h1>
+            </div>
+        
+            <nav>
+                <ul>
+                    <li>About</li>
+                    <li>Portfolio</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<section>
-    <h2>Contact</h2>
+<section class="contact">
+    <h2 class="page-title">Contact</h2>
     <form>
         <label for="name">Name</label>
+        <br>
         <input type="text" name="name" id="name" placeholder="John Smith" required>
+        <br>
         <label for="email">Email</label>
+        <br>
         <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+        <br>
         <label for="message">Message</label>
-        <input type="text" name="message" id="message">
-        <button>Submit</button>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="20"></textarea>
+        <br>
+        <input id="submit" type="submit">
     </form>
 </section>
 
